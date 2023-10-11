@@ -27,5 +27,9 @@
         <!-- Enable privacy indicators -->
         <item>privacy/permissions_hub_2_enabled=true</item>
         <item>privacy/permissions_hub_enabled=true</item>
+
+        <!-- For SeedVault Backup -->
+        <item>backup_and_restore/backup_transport_future_timeout_millis=900000</item>
+        <item>backup_and_restore/backup_transport_callback_timeout_millis=900000</item>
     </string-array>
 </resources>
