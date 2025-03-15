@@ -24,9 +24,6 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/overlays/overlay/common
 PRODUCT_PACKAGES += \
     AndroidBlackThemeOverlay \
 
-# Primary Colors
-#include vendor/overlays/primary/primary_colors.mk
-
 # Fonts
 include vendor/overlays/fonts/fonts.mk
 
